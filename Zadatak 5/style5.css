@@ -1,0 +1,114 @@
+body, html {
+	font-family: 'Rockwell';
+	margin: 0;
+	font-size: 16px;
+}
+
+header {
+    background: black;
+}
+.hero-image {
+	background-image: url("slike/papaya.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: linear-gradient(to right, #3adbcf,#4092d3);
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #3adbcf;
+}
+h1,h2 {
+	margin: 0.5em;
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+	color: #000000;
+}
+main a {
+	color: #27318b;
+	text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid black;
+}
+figcaption {
+	font-size: 90%;
+}
+img {
+	width: 100%;
+}
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+}
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 64px;
+	clear :both;
+}
+footer img {
+	width: 20px;
+}
+#gh{
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.news img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 1em;
+    margin: 0 1em 0.5em 0.5em;
+    
+}
+.news hr{
+    margin: 1em;
+    border: 1px dotted black;
+    clear:both;
+}
+

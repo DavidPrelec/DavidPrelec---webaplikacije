@@ -1,0 +1,37 @@
+body, html{
+    font-family: Stylus, sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+head{
+    display: block;
+    width: 100%;
+}.hero-image{
+    background-image: url("slike/papaya.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #3adbcf,#4092d3);
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #3adbcf;
+}
